@@ -82,9 +82,9 @@ clear
 echo
 toilet -f mono12   "SPAM-SMS"  | lolcat
 toilet -f mono12    "BRUTAL"   | lolcat
-python brutal.py
+python2 brutal.py
 sleep 5
-bash menu-1.sh
+
 fi
 
 if [ $ezz = 04 ] || [ $ezz = 4 ]
